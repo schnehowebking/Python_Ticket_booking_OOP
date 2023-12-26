@@ -14,9 +14,8 @@ while True:
     print("5. Book tickets")
     print("6. Exit")
 
-    choice = input("Enter your choice: ")
 
-    if choice == "1":
+    if (choice := input("Enter your choice: ")) == "1":
         rows = int(input("Enter the number of rows: "))
         cols = int(input("Enter the number of columns: "))
         hall_no = input("Enter the hall number: ")
